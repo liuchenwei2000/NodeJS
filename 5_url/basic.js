@@ -1,7 +1,7 @@
 /**
  * Created by liuchenwei on 2015/11/29.
  */
-// node.js为互联网而生，和url打交道是无法避免的，url模块提供一些基础的url处理。
+// 处理HTTP请求时url模块使用率超高，因为该模块允许解析URL、生成URL，以及拼接URL。
 var url = require('url');
 
 // parse 函数的作用是解析url，返回一个json格式的数组。
