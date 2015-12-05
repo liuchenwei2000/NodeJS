@@ -1,8 +1,8 @@
 {
-  "name": "demo",
+  "name": "express_demo",
   "version": "1.0.0",
   "description": "",
-  "main": "1_express.js",
+  "main": "app.js",
   "devDependencies": {
     "express": "^4.13.3",
     "utility": "^1.5.0"

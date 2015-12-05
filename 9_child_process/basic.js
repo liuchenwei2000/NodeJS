@@ -2,8 +2,9 @@
  * Created by liuchenwei on 2015/11/29.
  */
 // node.js是基于单线程模型架构，这样的设计可以带来高效的CPU利用率，但是无法却利用多个核心的CPU，
-// 为了解决这个问题，node.js提供了child_process模块，通过多进程来实现对多核CPU的利用。
+// 为了解决这个问题，node.js提供了child_process模块，可以创建和控制子进程，通过多进程来实现对多核CPU的利用。
 // child_process模块提供了四个创建子进程的函数，分别是spawn，exec，execFile和fork。
+// 该模块提供的API中最核心的是.spawn，其余API都是针对特定使用场景对它的进一步封装，算是一种语法糖。
 
 var child_process = require('child_process');
 
