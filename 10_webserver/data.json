@@ -1,0 +1,14 @@
+{
+  "id": "ID0001",
+  "title": "Thinking in Java",
+  "checked": false,
+  "edition": 3,
+  "authors": [
+    "Bruce Eckel",
+    "Hello World"
+  ],
+  "press": {
+    "name": "Oreilly",
+    "tel": "286639012"
+  }
+}
