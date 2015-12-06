@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "devDependencies": {
-    "express": "^4.13.3",
-    "utility": "^1.5.0"
+    "express": "^4.13.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
