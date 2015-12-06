@@ -11,7 +11,7 @@
 
 考虑到有时用到的三方包比较多， **NPM** 对 **package.json** 的字段做了扩展，允许在其中申明三方包依赖。如下所示：
 
-	{
+    {
     	"name": "nodejs_demo",
     	"dependencies": {
        	 	"somemodule": "0.0.1"
