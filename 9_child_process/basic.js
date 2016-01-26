@@ -1,6 +1,7 @@
-/**
- * Created by liuchenwei on 2015/11/29.
- */
+
+// Node 是单线程的，这里的单线程仅仅只是 JavaScript 执行在单线程中罢了，
+// 不论是 *nix 还是 Windows 平台，Node 内部完成 I/O 任务的另有线程池。
+
 // node.js是基于单线程模型架构，这样的设计可以带来高效的CPU利用率，但是无法却利用多个核心的CPU，
 // 为了解决这个问题，node.js提供了child_process模块，可以创建和控制子进程，通过多进程来实现对多核CPU的利用。
 // child_process模块提供了四个创建子进程的函数，分别是spawn，exec，execFile和fork。

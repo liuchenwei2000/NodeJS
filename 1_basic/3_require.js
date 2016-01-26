@@ -1,6 +1,4 @@
-/**
- * Created by liuchenwei on 2015/11/29.
- */
+
 // node平台上提供了大量的模块，封装了各自不同的功能，可以使用require函数获取模块
 var os = require('os');
 

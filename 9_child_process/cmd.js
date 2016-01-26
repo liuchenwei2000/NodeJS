@@ -1,6 +1,4 @@
-/**
- * Created by liuchenwei on 2015/11/29.
- */
+
 // 使用NodeJS调用终端命令来简化文件拷贝
 var child_process = require('child_process');
 var util = require('util');

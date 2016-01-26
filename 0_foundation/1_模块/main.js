@@ -2,20 +2,20 @@
  * NodeJS 遵循 CMD(Common Module Definition) 模块定义规范。
  * 该规范明确了模块的基本书写格式和基本交互规则。
  *
- * 在NodeJS中，一般将代码合理拆分到不同的JS文件中，每一个文件就是一个模块，而文件路径就是模块名。
+ * 在 NodeJS 中，一般将代码合理拆分到不同的JS文件中，每一个文件就是一个模块，而文件路径就是模块名。
  * 在编写每个模块时，都有require、exports、module三个预先定义好的变量可供使用。
  */
 
 /**
  * require函数用于在当前模块中加载和使用别的模块，传入一个模块名，返回一个模块导出对象。
  * 模块名可使用相对路径（以./开头），或者是绝对路径（以/或C:之类的盘符开头）。
- * 另外，模块名中的.js扩展名可以省略。
+ * 另外，模块名中的.js扩展名可以省略，Node会按 .js、.json、.node 的次序补足扩展名，依次尝试。
  */
 
-// 加载内置模块 fs，如果传递给require函数的是NodeJS内置模块名称，则不做路径解析，直接返回内置模块的导出对象。
+// 加载核心模块 fs，如果传递给require函数的是NodeJS内置模块名称，则不做路径解析，直接返回内置模块的导出对象。
 var fs = require('fs');
 
-// 加载自定义模块 greeting
+// 加载文件模块 greeting
 var greeting = require('./greeting');
 console.log(greeting.sayHello());
 
